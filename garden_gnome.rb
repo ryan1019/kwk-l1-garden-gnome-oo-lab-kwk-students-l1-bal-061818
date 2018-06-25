@@ -13,4 +13,16 @@ class GardenGnome
     @ages = ages
   end
 
-  def initialize (gluten_allergy = )
+  def gluten_allergy = (gluten_allergy)
+    @gluten_allergy = gluten_allergy
+  end
+
+  def gluten_allergy
+    @gluten_allergy
+end
+
+  def initialize (@personality = "evil")
+    @personality = personality
+  end
+
+  def initialize (hat_color)
